@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
-
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+for letr in range(122, 96, -1):
+    if letr % 2 == 0:
+        print("{}".format(chr(letr)), end="")
+    else:
+        print("{}".format(chr(letr-32)), end="")
