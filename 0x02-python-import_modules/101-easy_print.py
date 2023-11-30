@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-import subprocess
-
-subprocess.run(["echo", "#pythoniscool"])
+__import__('sys').stdout.write("#pythoniscool\n")
